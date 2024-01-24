@@ -192,6 +192,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         app/src/utils
         extern/CImg
         extern/hacBrewPack
+        extern/hacPack/hacPack-Tools/hacPackTools-NACP
         ${MBEDTLS_INCLUDE_DIRS}
         ${APP_PLATFORM_INCLUDE})
 target_compile_options(${PROJECT_NAME} PRIVATE -ffunction-sections -fdata-sections ${APP_PLATFORM_OPTION})
@@ -230,6 +231,7 @@ endif ()
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
         HackBrewPack
+        HacPackToolNACP
         borealis
         moonlight-common-c
         Jansson::Jansson
