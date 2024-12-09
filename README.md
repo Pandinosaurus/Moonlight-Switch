@@ -1,3 +1,6 @@
+> [!WARNING]
+> Latest release contains pairing issue. If you cannot pair your device with Host and see "Firstly call connect()" error, try to download previous version "i.e. v1.1.0", use it to pair your device, and than update to latest one. I'll try to fix this issue as soon as possible.
+
 # Moonlight-Switch
 
 Moonlight-Switch is a port of [Moonlight Game Streaming Project](https://github.com/moonlight-stream "Moonlight Game Streaming Project") for Nintendo Switch.
